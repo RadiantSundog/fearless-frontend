@@ -6,6 +6,9 @@ function createCard(name, description, pictureUrl) {
           <h5 class="card-title">${name}</h5>
           <p class="card-text">${description}</p>
         </div>
+        <div class="card-footer">
+        Date.now()
+        </div>
       </div>
     `;
 }
