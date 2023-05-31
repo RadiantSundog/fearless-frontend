@@ -118,7 +118,7 @@ function ConferenceForm() {
 
             <div className="mb-3">
               <select onChange={handleFormChange} required name="location" id="location" className="form-select">
-                <option selected value="">Choose a location</option>
+                <option value="">Choose a location</option>
                 {locations.map(location => {
                   return (
                     <option key={location.id} value={location.id}>{location.name}</option>
